@@ -1,6 +1,6 @@
 @media screen and (max-width: 576px) {
     .text {
-        color: black;
+        color: white;
         font-weight: normal !important;
         font-size: 12px;
         position: relative;
@@ -198,6 +198,10 @@
 }
 
 @media screen and (min-width: 577px) and (max-width: 769px){
+    .top-gallery{
+        height: 400px !important;
+        width: auto;
+    }
 
     .text {
         color: white;
@@ -373,6 +377,10 @@
 }
 
 @media screen and (min-width: 770px) and (max-width: 1024px){
+    .top-gallery{
+        height: 425px !important;
+        width: auto;
+    }
     .service-box{
         height: 280px;
         width: 100%;
@@ -452,6 +460,11 @@
         text-transform: uppercase;
         color: white;
         font-family: latobold;
+    }
+
+    .top-gallery{
+        height: 450px !important;
+        width: auto;
     }
 }
 
